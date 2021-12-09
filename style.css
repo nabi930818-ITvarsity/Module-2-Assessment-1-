@@ -118,10 +118,13 @@ a.info-box{
 }
 
 .info-box h3{
+    
+    text-align: left;
     padding: 0;
     margin-bottom: 0;
     width: 90%;
     color: darkgreen;
+
     
 }
 
@@ -148,7 +151,7 @@ a.info-box{
     margin: auto;
     margin-top: 12px;
     padding: 10px;
-    background: rgba(255, 255, 255, .8)    
+    background: rgba(255, 255, 255, 0.8)    
     
 }
 #info-box-full img{
@@ -173,9 +176,9 @@ a.info-box{
 #info-box-full p{
     width: 90%;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding: 0;
-    color: lawngreen;
+    color: lime;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -192,7 +195,7 @@ a.info-box{
 
 #info-box-full th{
     text-align: center;
-    color: lawngreen;
+    color: darkgreen;
     font-family: sans-serif;
     font-weight: 600;
     margin: auto;
@@ -201,7 +204,7 @@ a.info-box{
 
 #info-box-full td{
     text-align: center;
-    color: lawngreen;
+    color: lime;
     font-family: sans-serif;
     font-weight: 600;
     margin: auto;
@@ -240,7 +243,7 @@ a.info-box{
 img.info-box-weather-icon{
     height: 80px;
     width: 80px! important;
-    margin: 20px;
+    margin: 10px;
     float: left;   
 }
 img.info-box-weather-icon-2{
@@ -263,7 +266,7 @@ h1{
 h5{
     font-size: 65px;
     font-weight: 200;
-    color: black;
+    color: darkgreen;
     padding: 0;
     margin: auto;
 }
@@ -308,7 +311,7 @@ input{
     margin: 12px 0;
     border: 3px solid darkgreen;
     padding: 2px 0;
-    color: lawngreen;
+    color: lime;
     
 }
 
@@ -318,7 +321,7 @@ textarea{
     margin: 12px 0;
     border: 3px solid darkgreen;
     padding: 8px 0;
-    color: lawngreen;
+    color: lime;
     
 }
 .button{
@@ -328,7 +331,7 @@ textarea{
     border: 3px solid darkgreen;
     text-decoration: none;
     text-align: center;
-    color: lawngreen;
+    color: lime;
     font-size: 16px;
     font-weight: 600;
     margin: 12px 0;
